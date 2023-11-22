@@ -17,17 +17,17 @@ $(document).ready(function() {
 		$('.parallax__fog').css('opacity',o);
 
 			var z_2=1+(w/5000000*p);
-		$('.parallax__montain_1').css('transform','scale('+z_2+')');
+		$('.parallax__mountain_1').css('transform','scale('+z_2+')');
 
 
 			var hr=w/2000*p_b;
 			var z_3=1+(w*0.000005*p_b);
-		$('.parallax__montain_2').css('transform','translate3d('+hr+'px,0,0)scale('+z_3+')');
+		$('.parallax__mountain_2').css('transform','translate3d('+hr+'px,0,0)scale('+z_3+')');
 
 
 			var hr_2=w/1500*p_b;
 			var z_4=1+(w*0.00001*p_b);
-		$('.parallax__montain_3').css('transform','translate3d('+hr_2+'px,0,0)scale('+z_4+')');
+		$('.parallax__mountain_3').css('transform','translate3d('+hr_2+'px,0,0)scale('+z_4+')');
 
 	});
 
