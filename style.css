@@ -47,7 +47,7 @@ a:visited{
   position: relative;
   height: 100%;
 }
-.parallax__montain{
+.parallax__mountain{
   position: fixed;
   width: 100%;
   height: 100%;
@@ -55,16 +55,16 @@ a:visited{
   left: 0;
 
 }
-.parallax__montain_1{
+.parallax__mountain_1{
   background: url('m_1.png') 0 0 / cover no-repeat;
 
 }
-.parallax__montain_2{
+.parallax__mountain_2{
   z-index:1;
   background: url('m_2.png') bottom right / 45% no-repeat;
 
 }
-.parallax__montain_3{
+.parallax__mountain_3{
   z-index: 1;
   background: url('m_3.png') left bottom / 100% no-repeat;
 
